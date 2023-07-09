@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto X-men</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="src/imagens/logo.svg" alt="logo" />
+    </header>
+    <main class="selection_characters">
+      <section class="characters">
+        <h1 class="title">Selecione um personagem</h1>
+        <ul class="list_characters">
+          <li
+            class="character selected"
+            id="ciclope"
+            data-name="Ciclope"
+            data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança,mas não consegue controlá-los"
+          >
+            <img
+              src="./src/imagens/card-ciclope.jpg"
+              alt="personagem ciclope"
+            />
+          </li>
+          <li
+            class="character"
+            id="jean-grey"
+            data-name="Jean Grey"
+            data-description="Jean Grey é uma mutante nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos. A telepatia e telecinese"
+          >
+            <img
+              src="./src/imagens/card-jean-grey.jpg"
+              alt="personagem jean grey"
+            />
+          </li>
+          <li
+            class="character"
+            id="lince-negra"
+            data-name="Lince Negra"
+            data-description="Ela tem o poder de atravessar matéria sólida,campos de energia,rajadas ópticas, continuando intacta,e também tem o poder de andar no ar"
+          >
+            <img
+              src="./src/imagens/card-lince-negra.jpg"
+              alt="personagem lince negra"
+            />
+          </li>
+          <li
+            class="character"
+            id="tempestade"
+            data-name="Tempestade"
+            data-description="Tem o poder de controlar as forças da natureza, muito poderosa ela pode produzir raios, chuvas, gelos, ventos, neblina, entre outros efeitos"
+          >
+            <img
+              src="./src/imagens/card-tempestade.jpg"
+              alt="personagem tempestade"
+            />
+          </li>
+          <li
+            class="character"
+            id="vampira"
+            data-name="Vampira"
+            data-description="Ela tem o poder de absorver a vitalidade e memória das pessoas que toca ou no caso dos mutantes os poderes e a memória, mas só temporariamente"
+          >
+            <img
+              src="./src/imagens/card-vampira.jpg"
+              alt="personagem vampira"
+            />
+          </li>
+          <li
+            class="character"
+            id="wolverine"
+            data-name="Wolverine"
+            data-description="Poderes. Garras Metálicas. Fator de Cura Regenerativo, Super Agilidade"
+          >
+            <img
+              src="./src/imagens/card-wolverine.jpg"
+              alt="personagem wolverine"
+            />
+          </li>
+          <li
+            class="character"
+            id="noturno"
+            data-name="Noturno"
+            data-description="Ele é um mutante que nasceu com cauda, orelhas pontudas e com o poder de se Teletransportar"
+          >
+            <img
+              src="./src/imagens/card-noturno.jpg"
+              alt="personagem noturno"
+            />
+          </li>
+          <li
+            class="character"
+            id="magneto"
+            data-name="Magneto"
+            data-description="Ele tem o poder de magnetocinese,ou seja, controlar objetos de mental e criar campos magnéticos"
+          >
+            <img
+              src="./src/imagens/card-magneto.jpg"
+              alt="personagem magneto"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="character_selected">
+        <img
+          id="imgSelected"
+          class="big-weight"
+          src="src/imagens/card-ciclope.png"
+          alt="personagem selecionado"
+        />
+        <div class="info_character">
+          <h2 class="name_character" id="name_character">Ciclope</h2>
+          <p class="description_character" id="description_character">
+            Ele tem o poder de disparar rajadas ópticas por um acidente que
+            aconteceu com ele quando criança,mas não consegue controlá-los
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
